@@ -3,12 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>Rock Paper Scissor</title>
+    // updated code:
+    <style>
+      button { margin: 5px; padding: 10px; font-size: 16px; }
+      h2 { margin: 0; }
+      .highlight-green { background-color: lightgreen; }
+      .highlight-red { background-color: red; }
+
+      header {text-align: center; font-weight: 200;font-size: larger; font-weight: bold; color:coral;}
+      .player-score { color: rgb(17, 210, 149); font-weight: bold; }
+      .computer-score {color: rgb(23, 207, 10); font-weight: bold;}
+    </style>
   </head>
   <body>
-
-    <h2>Computer Choice: <span id="computer-choice"></span></h2>
-    <h2>Your Choice: <span id="user-choice"></span></h2>
-    <h2>Result: <span id="result"></span></h2>
+    <header><span>Rock-Paper-Scissor</span></header>
+    <h2 class="cc" style="color: rgb(23, 207, 10)">Computer Choice: <span id="computer-choice"></span></h2>
+    <h2 class="mc" style="color: rgb(17, 210, 149);">My Choice: <span id="user-choice"></span></h2>
+    <h2 class="ret" style="color: rgb(129, 19, 122);">Result: <span id="result"></span></h2>
 
     <button id="Rock">Rock</button>
     <button id="Paper">Paper</button>
